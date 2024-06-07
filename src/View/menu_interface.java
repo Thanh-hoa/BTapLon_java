@@ -101,7 +101,6 @@ public class menu_interface extends JFrame {
 		this.setIconImage(img);
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-
 		this.setTitle("Chương Trình Quản Lý Bán Coffee");
 		JButton btnNewButton = new JButton("Gọi Món");
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 15));
@@ -152,7 +151,7 @@ public class menu_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new employee_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -176,7 +175,7 @@ public class menu_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new assignment_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -201,7 +200,7 @@ public class menu_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new menu_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -226,7 +225,7 @@ public class menu_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new statistics_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -248,7 +247,7 @@ public class menu_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new order_Management_Interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -576,7 +575,7 @@ public class menu_interface extends JFrame {
 		                textField_DonGia.setText("");
 		                textField_DVT.setText("");
 					}else {
-						JOptionPane.showConfirmDialog(null, "Cập nhật không thành công.");
+						JOptionPane.showMessageDialog(null, "Cập nhật không thành công.");
 					}	
 			    }else {
 			    	JOptionPane.showMessageDialog(null, "Vui lòng chọn một sản phẩm để sửa.");
@@ -604,14 +603,14 @@ public class menu_interface extends JFrame {
 					ProductDAL product = new ProductDAL();
 					boolean rs = product.deleteProduct(id);
 					if(rs) {
-						JOptionPane.showConfirmDialog(null, "Xoá thành công.");
+						JOptionPane.showMessageDialog(null, "Xoá thành công.");
 						((DefaultTableModel) table.getModel()).removeRow(selectRow);
 					}else {
-						JOptionPane.showConfirmDialog(null, "Xóa không thành công.");
+						JOptionPane.showMessageDialog(null, "Xóa không thành công.");
 					}
 					
 				}else {
-					JOptionPane.showConfirmDialog(null, "Vui lòng chọn một hàng để xóa.");
+					JOptionPane.showMessageDialog(null, "Vui lòng chọn một hàng để xóa.");
 				}
 				
 				

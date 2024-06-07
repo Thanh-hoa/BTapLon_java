@@ -74,7 +74,6 @@ public class GiaDienChinh extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-
 		this.setTitle("Chương Trình Quản Lý Bán Coffee");
 		JButton btnNewButton = new JButton("Gọi Món");
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 15));
@@ -125,7 +124,7 @@ public class GiaDienChinh extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new employee_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -149,7 +148,7 @@ public class GiaDienChinh extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new assignment_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -174,7 +173,7 @@ public class GiaDienChinh extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new menu_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -199,7 +198,7 @@ public class GiaDienChinh extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new statistics_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -221,7 +220,7 @@ public class GiaDienChinh extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new order_Management_Interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -233,6 +232,8 @@ public class GiaDienChinh extends JFrame {
 			
 		});
 		contentPane.add(btnNewButton_7);
+		
+		
 		
 		JLabel lblNewLabel = new JLabel("HỆ THỐNG CHƯƠNG TRÌNH QUẢN LÝ QUÁN COOFFEE");
 		lblNewLabel.setForeground(new Color(160, 82, 45));

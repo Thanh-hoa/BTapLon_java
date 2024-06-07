@@ -55,15 +55,11 @@ public class loginGUI extends JFrame {
 					e.printStackTrace();
 				}
 			}
-		});
+		}); 
 	
 	}
 
-	
-	
 	public loginGUI() {
-		
-		
 		this.setTitle("Chương Trình Quản Lý Bán Coffee");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setBounds(100, 100, 1040, 521);

@@ -161,7 +161,7 @@ public class bill_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new employee_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -185,7 +185,7 @@ public class bill_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new assignment_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -210,7 +210,7 @@ public class bill_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new menu_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -235,7 +235,7 @@ public class bill_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new statistics_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -257,7 +257,7 @@ public class bill_interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new order_Management_Interface(userName, fullName , access).setVisible(true);
 						dispose();

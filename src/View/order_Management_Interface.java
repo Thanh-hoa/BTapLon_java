@@ -109,7 +109,6 @@ public class order_Management_Interface extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-
 		this.setTitle("Chương Trình Quản Lý Bán Coffee");
 		JButton btnNewButton = new JButton("Gọi Món");
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 15));
@@ -160,7 +159,7 @@ public class order_Management_Interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new employee_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -184,7 +183,7 @@ public class order_Management_Interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new assignment_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -209,7 +208,7 @@ public class order_Management_Interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new menu_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -234,7 +233,7 @@ public class order_Management_Interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new statistics_interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -256,7 +255,7 @@ public class order_Management_Interface extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				try {
-					if(access.equals("admin"))
+					if(access.equals("Admin"))
 					{
 						new order_Management_Interface(userName, fullName , access).setVisible(true);
 						dispose();
@@ -268,6 +267,8 @@ public class order_Management_Interface extends JFrame {
 			
 		});
 		contentPane.add(btnNewButton_7);
+		
+		
 		
 		JLabel lblNewLabel_2 = new JLabel("Tên Đăng Nhập : ");
 		ImageIcon icon1 = createResizedImageIcon("/image/people-icon.png", 30, 30);
@@ -493,7 +494,7 @@ public class order_Management_Interface extends JFrame {
 				{null, null, null, null, null, null, null},
 			},
 			new String[] {
-				"Số HD", "TG Lập", "MS Bàn", "Số Khách", "Người Lập", "Tiếp Tân", "Tổng Tiền"
+				"Số HD", "TG Lập", "MS Bàn", "Số Ghế", "Người Lập", "Phục Vụ", "Tổng Tiền"
 			}
 		));
 		scrollPane.setViewportView(table_1);
