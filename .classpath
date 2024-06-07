@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="JDBC/mssql-jdbc-12.6.1.jre11.jar"/>
+	<classpathentry kind="lib" path="jgoodies-common-1.8.0.jar" sourcepath="jgoodies-common-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/report/jasperreports-javaflow-6.21.3.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/com.lowagie.text-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/commons-collections4-4.5.0-M1.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/commons-digester3-3.2.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/commons-logging-1.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/jasperreports-javaflow-6.21.3.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/mssql-jdbc-12.6.2.jre11.jar"/>
+	<classpathentry kind="lib" path="D:/report/lib invoices/lib invoices/net.tascalate.javaflow.api-2.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="D:/report/jfreechart-1.0.19/jfreechart-1.0.19/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
